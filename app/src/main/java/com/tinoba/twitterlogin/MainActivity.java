@@ -75,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
         loginButton.setCallback(new Callback<TwitterSession>() {
             @Override
             public void success(Result<TwitterSession> result) {
-                Intent intent = new Intent(MainActivity.this,Poruka.class);
-                startActivity(intent);
+                //Intent intent = new Intent(MainActivity.this,Poruka.class);
+                //startActivity(intent);
             }
 
             @Override
